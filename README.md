@@ -1,6 +1,6 @@
 # Traffic Light Control System with Controlled Right-Turn Logic
 
-This repository contains a digital design and implementation of a four-way intersection traffic management system. The project follows a professional design workflow, transitioning from Hardware Description Language (HDL) modeling in **Xilinx Vivado** to gate-level schematic verification in **Logisim**.
+This repository contains a digital design and implementation of a four-way intersection traffic management system. The project follows a professional design workflow, transitioning from Hardware Description Language (HDL) modeling in **Xilinx Vivado** to gate-level schematic verification in **Logisim-evolution**.
 
 ## 1. Introduction
 The objective of this project is to digitally model a real-life four-way intersection. The design ensures synchronized signal transitions (Green, Yellow, Red) while maintaining safety protocols where only one direction is granted a green signal at any time. A key feature is the implementation of independent, continuously blinking yellow lights for controlled right-turn movements. This project reinforces concepts of sequential circuit design, timing control, and Finite State Machine (FSM) logic.
@@ -14,6 +14,8 @@ The system represents a four-way intersection operating under strict FSM-based r
     * **Yellow Phase:** 3 Seconds.
     * **Red Phase:** Active for all other directions.
 * **Controlled Right Turns:** Implemented as continuously blinking yellow signals that function independently from the main traffic cycle.
+
+
 
 ### FSM State Sequence:
 - **State 0:** Direction 1 Green (30s) / Others Red
@@ -51,8 +53,4 @@ The logical equivalent of the Verilog design was verified in **Logisim**. This g
 * **`docs/`**: Project report, state diagrams, and truth tables.
 
 ---
-*This project was developed as part of a Digital Design & Computer Architecture Project.*
-
----
-*This project was developed as part of a Digital Design curriculum.*
-*This project was developed as part of a Digital Design curriculum.*
+*This project was developed as part of a Digital Design & Computer Architecture curriculum.*
